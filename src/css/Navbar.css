@@ -1,0 +1,90 @@
+.Container-navbar{
+    height: 80px;
+    /* background-color: rgb(188, 188, 196); */
+
+}
+
+
+.wapper-navbar{
+    padding: 10px ,20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-navbar{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+.Link-Items{
+    cursor: pointer;
+    font-size: 15px;
+}
+.search-container{
+    /* border: .5px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+}
+/* .Input-navbar{
+    padding: 10px;
+} */
+
+.Logo-Navbar{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.center-navbar{
+    flex: 1;
+    text-align: center;
+}
+.right-navbar{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Menu-Items{
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 25px;
+   
+}
+
+
+
+
+.button-4:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  .button-4:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+  }
+  
+  .button-4:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+  
+  .button-4:focus {
+    outline: 1px transparent;
+  }
+  
+  .button-4:before {
+    display: none;
+  }
+  
+  .button-4:-webkit-details-marker {
+    display: none;
+  }
